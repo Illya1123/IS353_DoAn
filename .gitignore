@@ -1,5 +1,4 @@
 data/*
 venv
 .git
-*.pth
-model/*.pth
+temp
