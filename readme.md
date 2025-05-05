@@ -27,24 +27,6 @@ Dự án này tập trung vào bài toán phân loại ảnh cảnh vật từ d
   - Sea
   - Street
 
-- **Cấu trúc thư mục dữ liệu:**
-
-IS353_DoAn/
-├── app.py                          # Ứng dụng Streamlit chính
-├── gcn-dt.ipynb                    # Notebook huấn luyện/test GCN (pixel-based)
-├── gcn-combine.ipynb              # Notebook huấn luyện/test GCN (SLIC + Delaunay)
-├── model/
-│   ├── gcn_dt.pth                  # Trọng số mô hình gcn_dt
-│   └── gcn_combine.pth            # Trọng số mô hình gcn_combine
-├── data/
-│   └── intel-image-classification/
-│       ├── seg_pred/              # (Tùy chọn) dữ liệu phân đoạn
-│       ├── seg_test/              # Ảnh kiểm tra
-│       └── seg_train/             # Ảnh huấn luyện
-├── requirement.txt                # Các thư viện cần cài
-├── readme.md                      # Hướng dẫn sử dụng
-└── venv/                          # Virtual environment (nếu có)
-
 
 ## 👨‍💻 Cách chạy code
 
