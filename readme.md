@@ -45,7 +45,9 @@ venv/Scripts/activate
 pip install -r requirement.txt
 
 # Bước 5: Chạy ứng dụng Streamlit
-streamlit run app.py
+streamlit run app.py (Đối với test model gcn-dt và gcn-combine)
+hoặc
+streamlit run slic.py (Đối với gcn-slic)
 ```
 
 > 🔁 **Lưu ý:** Mỗi lần mở terminal mới, bạn cần **kích hoạt lại virtual environment** bằng lệnh `venv\Scripts\activate` (Windows) hoặc `source venv/bin/activate` (Linux/macOS) trước khi chạy Streamlit.
