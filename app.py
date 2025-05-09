@@ -53,8 +53,6 @@ def create_combined_graph(image, n_segments=100, compactness=10):
     return data, segments
 
 
-
-
 # ==== Define Model ====
 class GCNModel(torch.nn.Module):
     def __init__(self, input_dim, hidden_dims, num_classes):
@@ -77,7 +75,7 @@ class GCNModel(torch.nn.Module):
         x = global_mean_pool(x, batch)
         x = self.fc(x)
         return x
-    
+
 class CombinedGCN(torch.nn.Module):
     def __init__(self, input_dim=5, hidden_dims=[256, 128, 64], num_classes=6):
         super(CombinedGCN, self).__init__()
